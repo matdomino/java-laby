@@ -2,6 +2,14 @@ public class Walec {
     private float baseRadius;
     private float height;
 
+    public float getBaseRadius() {
+        return baseRadius;
+    }
+
+    public float getHeight() {
+        return height;
+    }
+
     public  Walec(float baseRadius, float height) {
         this.baseRadius = baseRadius;
         this.height = height;
@@ -18,14 +26,6 @@ public class Walec {
 
     public void setHeight(float newHeight) {
         this.height = newHeight;
-    }
-
-    public void printBaseRadius() {
-        System.out.println(this.baseRadius);
-    }
-
-    public void printHeight() {
-        System.out.println(this.height);
     }
 
     public double baseArea() {

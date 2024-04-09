@@ -18,10 +18,8 @@ public class Main {
     }
 
     public static void showParameters(Walec walec) {
-        System.out.print("Promień podstawy: ");
-        walec.printBaseRadius();
-        System.out.print("Wysokość: ");
-        walec.printHeight();
+        System.out.println("Promień podstawy: " + walec.getBaseRadius());
+        System.out.println("Wysokość: " + walec.getHeight());
     }
 
     public static void setParameters(Walec walec, Scanner scanner) {
