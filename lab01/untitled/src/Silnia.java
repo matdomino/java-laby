@@ -2,7 +2,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class Silnia {
-    static long silnia(int num) {
+    public static long silnia(int num) {
         long result = 1;
 
         for (int i = 1; i <= num; i++) {
